@@ -38,10 +38,20 @@ body{
 }
 @media(max-width:600px){
     body
-    {background:blue}
+    {background:rgb(216, 223, 223)}
+}
+@media(max-width:600px){
+    .login-page{
+     display: inline-flex;
+    }
 }
 @media(max-width:600px){
     .container{
         display:flex;
+    }
+}
+@media(max-width:600px){
+    .container{
+        display:flex
     }
 }
