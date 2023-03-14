@@ -1,0 +1,47 @@
+body{
+    background-image: url(img5.jpg);
+    background-size: cover;
+}
+.login-page{
+    background-color: grey;
+    width:auto;
+}
+.login-page ul{
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 20px;
+    color:white;
+}
+.login-page ul li{
+    width:150px;
+    margin-left: 20px;
+}
+.submenu{
+    display:none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    flex: auto;
+}
+.box2{
+    flex:auto;
+}
+.box3{
+    flex:auto;
+    background-color: antiquewhite;
+}
+.box3 H1{
+    text-align: center;
+}
+@media(max-width:600px){
+    body
+    {background:blue}
+}
+@media(max-width:600px){
+    .container{
+        display:flex;
+    }
+}
