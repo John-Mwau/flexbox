@@ -1,7 +1,6 @@
 body{
     background-image: url(img5.jpg);
     background-size: cover;
-    display: flex;
 }
 .login-page{
     background-color: grey;
