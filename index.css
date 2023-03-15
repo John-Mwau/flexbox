@@ -39,6 +39,7 @@ font-size: 20px;
 .box2{
     flex:1;
     background-color: antiquewhite;
+    border: none;
 }
 .box2 p{
     text-align: justify;
@@ -61,5 +62,7 @@ font-size: 20px;
 @media (max-width:600px){
     .login-page ul{
         display:inline-block;
+        background-color: aliceblue;
+        font-size: 10px;
     }
 }
