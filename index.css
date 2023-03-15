@@ -58,7 +58,7 @@ font-size: 20px;
 @media (max-width:600px){
     body{
         background-color:whitesmoke;
-        display: flex;
+        display: inline-block;
     }
 }
 @media (max-width:600px){
