@@ -1,6 +1,7 @@
 body{
     background-image: url(img5.jpg);
     background-size: cover;
+    display: flex;
 }
 .login-page{
     background-color: grey;
@@ -57,12 +58,11 @@ font-size: 20px;
 @media (max-width:600px){
     body{
         background-color:whitesmoke;
+        display: flex;
     }
 }
 @media (max-width:600px){
     .login-page ul{
         display:inline-block;
-        background-color: aliceblue;
-        font-size: 10px;
     }
 }
