@@ -58,7 +58,6 @@ font-size: 20px;
 @media (max-width:600px){
     body{
         background-color:whitesmoke;
-        display: inline-block;
     }
 }
 @media (max-width:600px){
