@@ -20,38 +20,41 @@ body{
     display:none;
 }
 .container{
+    padding:10px;
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .box1{
-    flex: auto;
+    flex:1;
+    background-color: aqua;
+}
+.box1 p{
+text-align: justify;
+line-height: 1.5;
+font-size: 20px;
+
 }
 .box2{
-    flex:auto;
+    flex:1;
+    background-color: antiquewhite;
+}
+.box2 p{
+    text-align: justify;
+    line-height: 1.5;
+    font-size:20px;
+  
 }
 .box3{
-    flex:auto;
+    flex:1;
     background-color: antiquewhite;
 }
 .box3 H1{
     text-align: center;
 }
 @media(max-width:600px){
-    body
-    {background:rgb(216, 223, 223)}
-}
-@media(max-width:600px){
-    .login-page{
-     display: inline-flex;
-    }
-}
-@media(max-width:600px){
-    .container{
-        display:flex;
-    }
-}
-@media(max-width:600px){
-    .container{
-        display:flex
+    body{
+        background-color:whitesmoke;
     }
 }
