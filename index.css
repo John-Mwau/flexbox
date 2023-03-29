@@ -55,13 +55,8 @@ font-size: 20px;
     text-align: center;
 }
 @media (max-width:600px){
-    .login-page ul{
-        display: inline-block;
-    }
-}
-@media (max-width:600px){
-    .container{
+    .login-page{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 }
